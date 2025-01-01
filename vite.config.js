@@ -8,7 +8,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 
 // https://vite.dev/config/
-// 测试拉取
+// 删除提交
 export default defineConfig({
   plugins: [
     vue(),
