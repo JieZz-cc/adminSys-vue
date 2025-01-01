@@ -1,0 +1,75 @@
+.dashboard {
+  
+  .top {
+    height: 70px;
+    background-color: var(--el-bg-color-overlay);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--el-box-shadow-light);
+    .top-right {
+      width: 180px;
+      text-align: right;
+    }
+  }
+  .middle {
+    margin-top: 15px;
+    background-color: var(--el-bg-color-overlay);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: var(--el-box-shadow-light);
+    :deep(.el-collapse-item__header) {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .bottom {
+    .yilai {
+      display: flex;
+      justify-content: space-between;
+      .card {
+        width: 49%;
+        border-radius: 8px;
+        :deep(.el-card__header) {
+          // padding: 0 0 10px 0;
+          padding-left: 0px;
+        }
+        .card-header {
+          font-weight: bold;
+        }
+        :deep(.el-card__body) {
+          padding: 0px;
+          display: flex;
+          // justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        .grid-box {
+          padding: 20px;
+          width: 33.33%;
+          text-align: center;
+          box-sizing: border-box;
+          border-bottom: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+          &:hover {
+            cursor: pointer;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+          }
+        }
+      }  
+    }
+    .dizhi {
+      display: flex;
+      justify-content: space-between;
+      .card {
+        width: 49%;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+

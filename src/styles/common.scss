@@ -1,0 +1,155 @@
+// 一些公共样式
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 18px;
+  overflow-x: hidden;
+  background-color: var(--el-bg-color);
+  border: 1px solid var(--el-border-color-light);
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgb(0 0 0 / 5%);
+}
+
+.flex-center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// 单行省略号
+.shenlue {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* fade-transform 过渡动画 */
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all 0.2s;
+}
+
+.fade-transform-enter-from {
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateX(-30px);
+}
+
+.fade-transform-leave-to {
+  display: none; // 解决标签全部关闭时出现动画闪烁问题
+  opacity: 0;
+  transition: all 0.2s;
+  transform: translateX(30px);
+}
+
+
+/* nprogress */
+#nprogress .bar {
+  background: var(--el-color-primary) !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--el-color-primary) !important;
+  border-left-color: var(--el-color-primary) !important;
+}
+
+#nprogress .peg {
+  box-shadow:
+    0 0 10px var(--el-color-primary),
+    0 0 5px var(--el-color-primary) !important;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+.fz-16 {
+  font-size: 16px;
+}
+.fz-18 {
+  font-size: 18px;
+}
+.fz-20 {
+  font-size: 20px;
+}
+.fz-22 {
+  font-size: 22px;
+}
+.fz-24 {
+  font-size: 24px;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+.fw-ber {
+  font-weight: bolder;
+}
+
+
+/*margin*/
+
+.mg-r-8 {
+  margin-right: 8px;
+}
+.mg-t-20 {
+  margin-top: 20px;
+}
+.mg-t-15 {
+  margin-top: 15px;
+}
+.mb12 {
+  margin-bottom: 12px;
+}
+.mg-b-10 {
+  margin-bottom: 10px;
+}
+.mg-l-5 {
+  margin-left: 5px;
+}
+.mg-l-8 {
+  margin-left: 8px;
+}
+
+/*
+padding
+*/
+.pd-l-3 {
+  padding-left: 3px;
+}
+.pd-l-5 {
+  padding-left: 5px;
+}
+.pd-l-8 {
+  padding-left: 8px;
+}
+.pd-l-10 {
+  padding-left: 10px;
+}
+.pd-l-15 {
+  padding-left: 15px;
+}
+.pd-l-20 {
+  padding-left: 20px;
+}
+
+.pd5 {
+  padding: 5px;
+}
+.pd10 {
+  padding: 10px;
+}
+.pd15 {
+  padding: 15px;
+}
+.pd20 {
+  padding: 20px;
+}
+.pd25 {
+  padding: 25px;
+}
