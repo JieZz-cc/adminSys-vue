@@ -20,7 +20,7 @@ import {invokeApi} from '@/api'
 // import directive from './directive';
 
 // 中文语言包
-import locale from 'element-plus/dist/locale/zh-cn'
+// import locale from 'element-plus/dist/locale/zh-cn'
 
 import piniaPluginPersist from 'pinia-plugin-persistedstate'     // 持久化存储
 import { zhCn } from 'element-plus/es/locales.mjs'
