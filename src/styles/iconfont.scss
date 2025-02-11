@@ -1,9 +1,11 @@
 @font-face {
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: 'iconfont';  /* Project id 4523094 */
-  src: url('//at.alicdn.com/t/c/font_4523094_txalceq91m.woff2?t=1729656418798') format('woff2'),
+  src: 
+      url('//at.alicdn.com/t/c/font_4523094_txalceq91m.woff2?t=1729656418798') format('woff2'),
        url('//at.alicdn.com/t/c/font_4523094_txalceq91m.woff?t=1729656418798') format('woff'),
        url('//at.alicdn.com/t/c/font_4523094_txalceq91m.ttf?t=1729656418798') format('truetype');
+      // url('//at.alicdn.com/t/c/font_4801244_c3tssxnl0ev.css') format('woff2'),
 }
 
 .iconfont {
@@ -15,7 +17,8 @@
 }
 
 .toolbar-icon.iconfont {
-  font-size: 22px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .icon-user::before {
@@ -164,4 +167,10 @@
 
 .icon-fangche::before {
   content: '\e656';
+}
+.icon-fabu-::before {
+  content: "\e657";
+}
+.icon-chexiao::before {
+  content: "\e657";
 }

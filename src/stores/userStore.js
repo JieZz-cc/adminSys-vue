@@ -6,6 +6,7 @@ export const userStore = defineStore('userTokenStore', {
     token: '',
     userInfo: {
       username: '',
+      userId: '',
       id: 0,
       name: '',
       email: null,

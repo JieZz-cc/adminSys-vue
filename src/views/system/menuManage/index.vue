@@ -71,7 +71,7 @@
               >
                 <template #reference>
                   <el-button link type="primary" size="small">
-                    <i class="btn-icon mr4 iconfont icon-shanchu"></i><span>删除</span>
+                    <i class="btn-icon mr4 iconfont icon-shanchu del"></i><span class="del">删除</span>
                   </el-button>
                 </template>
               </el-popconfirm>
